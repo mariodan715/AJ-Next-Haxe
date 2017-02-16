@@ -1,0 +1,26 @@
+-main ApplicationMain 
+--macro openfl._internal.utils.ExtraParams.include()
+-cp C:/HaxeToolkit/haxe/lib/openfl/4,8,0
+-D openfl=4.8.0
+--macro lime.Lib.extraParams()
+-cp C:/HaxeToolkit/haxe/lib/lime/3,7,3
+-D lime=3.7.3
+-cp C:/HaxeToolkit/haxe/lib/createjs/1,5,8
+-D createjs=1.5.8
+-cp src
+-cp C:\HaxeToolkit\haxe\lib\openfl/4,8,0/externs/core/flash
+-cp C:\HaxeToolkit\haxe\lib\openfl/4,8,0/externs/core/openfl
+-D native-trace
+-D tools=3.7.3
+-D flash-use-stage
+-D no-compilation
+-D openfl-flash
+-D verbose=1
+-D web
+-resource build/flash/debug/obj/manifest@__ASSET_MANIFEST__
+-swf-lib build/flash/debug/obj/assets.swf
+-swf-version 11.2
+-swf build/flash/debug/bin/release.swf
+-swf-header 800:600:30:FFFFFF
+-cp build/flash/debug/haxe
+-debug

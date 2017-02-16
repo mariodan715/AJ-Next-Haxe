@@ -1,0 +1,8 @@
+-js
+build/release.js
+-main Main
+-cp src
+-lib openfl
+-lib createjs
+-lib lime
+-D js-es5

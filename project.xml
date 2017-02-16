@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="AJNextHaxe" package="ajnexthaxe" version="1.0.0" company="WildWorks" />
+	<app main="Main" path="build" file="release" />
+
+	<source path="src" />
+
+	<haxelib name="openfl" />
+    <haxelib name="createjs" />
+
+    <assets path="assets" include="*" />
+
+</project>
